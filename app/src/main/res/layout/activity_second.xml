@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SecondActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/avatarInDetail"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"/>
+    <TextView
+        android:id="@+id/nameInDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/usernameInDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="10sp"
+        tools:ignore="SmallSp" />
+    <TextView
+        android:id="@+id/textViewCompany"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/company"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/companyInDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="10sp"
+        tools:ignore="SmallSp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textViewRepository"
+            android:text="@string/repository"
+            style="@style/textViewRepositoryInDetail" />
+        <TextView
+            android:id="@+id/textViewFollowers"
+            android:text="@string/followers"
+            style="@style/textViewFollowersInDetail"/>
+        <TextView
+            android:id="@+id/textViewFollowing"
+            android:text="@string/following"
+            style="@style/textViewFollowingInDetail" />
+        <TextView
+            android:id="@+id/repositoryInDetail"
+            style="@style/repositoryInDetail" />
+        <TextView
+            android:id="@+id/followersInDetail"
+            style="@style/followersInDetail" />
+        <TextView
+            android:id="@+id/followingInDetail"
+            style="@style/followingInDetail" />
+    </FrameLayout>
+
+    <ImageView
+        android:src="@drawable/github"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="90dp"
+        android:contentDescription="@string/imagegithub" />
+    <TextView
+        android:id="@+id/textGithub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/github_user"
+        android:gravity="center"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>

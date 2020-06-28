@@ -1,0 +1,46 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="textViewFollowers">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginTop">65dp</item>
+        <item name="android:layout_marginLeft">90dp</item>
+        <item name="android:layout_marginRight">119dp</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="textViewFollowing" parent="textViewFollowers">
+        <item name="android:layout_marginLeft">210dp</item>
+        <item name="android:layout_marginRight">15dp</item>
+    </style>
+    <style name="textViewRepositoryInDetail">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="textViewFollowersInDetail" parent="textViewRepositoryInDetail">
+        <item name="android:layout_marginLeft">145dp</item>
+    </style>
+    <style name="textViewFollowingInDetail" parent="textViewRepositoryInDetail">
+        <item name="android:layout_marginLeft">280dp</item>
+    </style>
+    <style name="repositoryInDetail">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">50dp</item>
+        <item name="android:layout_marginLeft">40dp</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+    <style name="followersInDetail" parent="repositoryInDetail">
+        <item name="android:layout_marginLeft">150dp</item>
+    </style>
+    <style name="followingInDetail" parent="repositoryInDetail">
+        <item name="android:layout_marginLeft">300dp</item>
+    </style>
+
+</resources>
